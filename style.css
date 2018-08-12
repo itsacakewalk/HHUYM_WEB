@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css?family=Jua');
+
+
+body {
+background: teal;
+background-repeat: no-repeat;
+background-position: 0% 25%;
+background-attachment: fixed;
+width:780px;
+color: teal;
+font-size: 11px;
+font-family: Jua, sans-serif;
+padding:10px auto 0 auto;
+margin:auto;
+}
+
+A:link {
+	COLOR: skyblue; TEXT-DECORATION: none;
+}
+A:visited {
+	COLOR: midnightblue; TEXT-DECORATION: none;
+}
+A:active {
+	COLOR: skyblue; TEXT-DECORATION: none;
+	}
+A:hover {
+	COLOR: slateblue; TEXT-DECORATION: none;
+	}
+
+A.footerl:link {
+	COLOR: #000; TEXT-DECORATION: none;
+}
+A.footerl:visited {
+	COLOR: #000; TEXT-DECORATION: none;
+}
+A.footerl:active {
+	COLOR: #000; TEXT-DECORATION: none;
+	}
+A.footerl:hover {
+	COLOR: slateblue; TEXT-DECORATION: underline;
+	}
+
+ul {
+    list-style-type: square;
+    list-style-position: inside;
+    padding: 5px;
+    margin: 4px;
+}
+
+.customform {
+    display: block;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 450px;
+    padding: 20px;
+    border: 5px dashed teal;
+    
+}
+
+textarea {
+    width: 400px;
+    height: 200px;
+}
+
+.container {
+background-color: #FFF;
+border: 1px solid teal;
+}
+
+.navigation {
+	letter-spacing: 5px; 
+	word-spacing: 25px;
+	font-weight: bold;
+	text-transform: uppercase;
+	font-size: 95%;
+	float: left;
+	text-align: left;
+	background-color: #FFF;
+	padding: 38px 13px 13px 38px;
+}
+
+.logo {
+	border-bottom: 5px solid teal;
+	text-align: right;
+	color: teal;
+	font-size: 24px;
+	padding: 15px;
+}
+.logo em{
+	display:block;
+	text-align: right;
+	color: #CC0000;
+	font-weight: normal;
+	font-size: 10px;
+}
+
+.image {
+	background-repeat: no-repeat;
+	background-position: 100% 0%;
+	width: 100%;
+	height: 279px;
+}
+
+.boxcontain {
+	background-color: #A2A2A3;
+	width: 46%;
+	float: right;
+	height: 147px;
+}
+
+
+.content {
+	padding: 5px;
+}
+
+.charactertable {
+    align-content: center;
+    margin: 0px auto;
+    text-align: center;
+}
+
+.archivetable {
+    margin: 0px auto;
+    border-spacing: 15px;
+    border: 5px dashed teal;
+    
+}
+
+.leftcontent {
+	background:#fff;
+	padding:20px;
+    border-top: 5px solid teal;
+}
+
+h1 {
+	color: #CC0000;
+	padding: 0;
+	margin: 0 0 5px 0;
+	text-decoration: underline;
+	width: 50%;
+}
+
+#logolatestnews {
+	border: 3px dashed teal; 
+	width: 150px; 
+	height: 280px; 
+	float: right; 
+	margin: 10px 15px 15px 10px;
+}
+
+.footer {
+	font-size: 11px;
+	padding: 0 3px 3px 3px;
+	float: right;
+}
+
+.bottomnav {
+	font-size: 10px;
+	text-align: left;
+	padding: 0 3px 3px 3px;
+}
